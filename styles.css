@@ -1,1 +1,76 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #eaddca; /* Nova cor de fundo */
+    color: #dbb691; /* Cor das letras */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
 
+.container {
+    max-width: 1000px; /* Aumenta a largura da lista */
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #9b6543; /* Cor de fundo da lista */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+h1 {
+    color: #ffff; /* Cor do título */
+}
+
+input {
+    width: calc(50% - 120px);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="number"] {
+    width: calc(50% - 120px);
+    margin-left: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #914F1E; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #CFAF6A; /* Cor do botão ao passar o mouse (opcional) */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    color: #ffff; /* Cor dos itens da lista */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.delete {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.paid {
+    text-decoration: line-through; /* Risca o texto */
+    color: #914F1E; /* Cor do texto riscado */
+}
