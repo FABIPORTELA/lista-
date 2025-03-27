@@ -72,5 +72,5 @@ button.delete {
 
 .paid {
     text-decoration: line-through; /* Risca o texto */
-    color: #914F1E; /* Cor do texto riscado */
+    color: #914F1E; 
 }
